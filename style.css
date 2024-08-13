@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .menubar1 {
   background-color: rgb(141, 21, 61);
   width: 100%;
@@ -43,7 +44,6 @@
   list-style-type: none;
   margin-top: 30px;
 }
-
 .anchor {
   color: black;
   font-size: 38px;
@@ -64,9 +64,7 @@
   vertical-align: top;
   margin-left: -18px;
 }
-span.bag {
-  /* display: none; */
-}
+
 .section-container-1 {
   width: 100%;
   height: 50vh;
@@ -158,13 +156,11 @@ span.bag {
 
 
 .section-container4{
-  width: 100%;
   height: 50vh;
   margin-top:40px;
   position: relative;
   display: flex;
   transition: all 1s ease;
-  object-fit: contain;
 }
 
 .img-slider{
@@ -373,6 +369,7 @@ text-align: center;
   flex-direction:row;
   font-size:23px;
   margin:18px 0px 0px 10px;
+  gap:10px;
 }
 .numspan{
   border: none;
@@ -389,5 +386,204 @@ text-align: center;
   display:flex;
   margin-top: 10px;
   border: 1px solid rgb(201, 182, 182);
+}
 
+/* ******************************************************************************** */
+.addtoproductdisplay{
+  margin-top: 50px;
+}
+.bag-container{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-bag{
+  width:100px;
+  height:100px;
+}
+.bag-container-1{
+  width:1250px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:150px;
+  border:1px solid #cfc1c165;
+  padding:20px;
+}
+.image-price{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  gap: 20px;
+}
+.remove{
+  border: none;
+  background-color: black;
+  color: #ffffff;
+  width:200px;
+  height:37px;
+  font-size: larger;
+  border-radius:10px;
+}
+.btn-control{
+  width: 70px;
+  height:37px;
+  font-size:26px;
+  border: none;
+  background-color: #ffffff;
+}
+
+.controller{
+  width:180px;
+  font-size:26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+  border: 1px solid rgb(150, 138, 138);
+  padding:0px 10px 0px 10px;
+}
+.price{
+  font-size: larger;
+}
+.product-name{
+  font-size: larger;
+  font-weight:700;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.category-type{
+  width:180px;
+  font-size: larger;
+  text-align: center;
+  background-color:rgb(250, 208, 250);
+  border-radius:360px;
+  padding:4px;
+}
+
+/* ******************************************************** */
+
+.contact-details{
+  text-align: center;
+  margin-top:100px;
+}
+
+
+
+/* *********************************************************** */
+.maincontainer-signup{
+  margin-top:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-signup{
+  width:600px;
+  height:700px;
+  background-image: url(https://img.freepik.com/premium-photo/black-friday-shooping-cart-illustration_626849-6009.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:700px;
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+}
+.signup{
+  width:600px;
+  height:700px;
+  background-color: rgb(203, 186, 186);
+  border-top-right-radius:30px;
+  border-bottom-right-radius:30px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+#login{
+  color: #000000;
+  font-size:60px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin:0px 0px 20px 0px;
+}
+.input-su{
+  width:390px;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  /* border-bottom:1px solid white; */
+  background-color: rgb(203, 186, 186);
+  font-size:23px;
+  margin:20px;
+  outline: none;
+  color: rgb(0, 0, 0);
+}
+#loginbtn{
+  background-color: rgb(203, 186, 186);
+  width:290px;
+  height:40px;
+  font-size: larger;
+  border-radius:30px;
+  margin-top:60px;
+}
+.singup2{
+  display: flex;
+  flex-direction: row;
+  gap:190px;
+  margin-top:50px;
+  font-size:20px;
+}
+#explore{
+  width:150px;
+  height:30px;
+  margin-top:40px;
+  border-radius:30px;
+  background-color: rgb(203, 186, 186);
+  border:none;
+  outline: none;
+}
+#explore-anchor{
+  text-decoration: none;
+  color: black;
+}
+
+.popuptext{
+  width:250px;
+  height:30px;
+  position: fixed;
+  top:20px;
+  background-color: #000000;
+  color: white;
+  text-align:center;
+  padding-top:8px;
+  z-index:1000;
+  border-radius:30px;
+  transform: translate(760%,210%);
+}
+/* **************************************************** */
+.shoppingcart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+.cart-image{
+  width:705px;
+  height:705px;
+}
+.shopping-btn{
+  width:200px;
+  height:40px;
+  background-color:rgb(141, 21, 61);
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  margin-top:50px;
+  padding-top:14px;
+  font-size: x-large;
+}
+.shopping-para{
+  font-size:35px;
 }
