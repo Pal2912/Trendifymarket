@@ -1,6 +1,6 @@
 # Trendifymarket
 
-Welcome to Snake Wonders Where. This project is designed to be fully responsive, ensuring an enjoyable experience.
+Welcome to Trendify Market!! This project is designed to be fully responsive, ensuring an enjoyable experience.
 
 ## Technologies Used
 
